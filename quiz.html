@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>quiz</title>
+	<link rel="stylesheet" type="text/css" href="quiz.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script src="quiz.js"></script>
+</head>
+<body >
+
+
+<h1>Take this quiz!!</h1>
+
+<div class="_div1">
+<form>
+	 <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="Text" class="form-control" placeholder="Enter Name" id="nm" required>
+  </div>
+</form>
+
+<p>The quiz starts now</p> 
+
+
+<form name="quiz">
+	<p class="_p1">1. Which country consumes more chocolate</p>
+	<input type="radio" value="swizerland"  name="quest1" class="input">swizerland<br>
+	<input type="radio" value="london" name="quest1" class="input">london<br>
+
+	<p class="_p1">2. Which is the capital of china</p>
+	<input type="radio" value="beijing" name="quest2" class="input">beijing<br>
+	<input type="radio" value="tokyo" name="quest2" class="input">tokyo<br>
+
+	<p class="_p1">3. which country speaks more english</p>
+	<input type="radio" name="quest3" value="usa" class="input">usa<br>
+	<input type="radio" name="quest3" value="uae" class="input">uae<br>
+
+<center>
+	<button id="res" onclick="func()" class="btn btn-info">click to submit</button>
+
+</center>
+</form>
+</div>
+
+<div class="_div2">
+	<img src="gif1.gif" class="_img">
+</div>
+
+</body>
+</html>
